@@ -795,14 +795,14 @@ static void ui_draw_vision(UIState *s) {
         // Add label
         nvgFontSize(s->vg, labelfontsize);
         nvgTextAlign(s->vg, NVG_ALIGN_LEFT | NVG_ALIGN_BASELINE);
-        nvgText(s->vg, 20, 175-30, "OpenPilot: On", NULL);
+        nvgText(s->vg, 20, 175-30, "OpenPilot: On my name is max :)", NULL);
       } else {
         nvgFillColor(s->vg, nvgRGBA(195, 195, 195, 192));
 
         // Add label
         nvgFontSize(s->vg, labelfontsize);
         nvgTextAlign(s->vg, NVG_ALIGN_LEFT | NVG_ALIGN_BASELINE);
-        nvgText(s->vg, 20, 175-30, "OpenPilot: Off", NULL);
+        nvgText(s->vg, 20, 175-30, "OpenPilot: Off my name is max :(", NULL);
       }
 
       nvgFontSize(s->vg, defaultfontsize);
